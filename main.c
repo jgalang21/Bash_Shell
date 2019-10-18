@@ -13,7 +13,7 @@ Created by Jeremy Galang
 
 int main(int argc, char **argv){
 char input [200];
-char* name; //name of the shell, default goes to 308sh> 
+char* name; //name of the shell, default goes to MyShell> 
 int killed = 0;
 
 //everything execept the built-in commands should be passed into exec, the only if statements you should have are the built-in ones.
